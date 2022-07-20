@@ -76,6 +76,9 @@
     display: flex;
     justify-content: center;
 
+    margin-top: 150px;
+    margin-bottom: 80px;
+
 
 }
 
@@ -84,7 +87,11 @@
 .nav-ber ul {
     background-color: black;
     width: 100%;
-    padding: 50px 25px;
+    padding: 50px 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+
+
     border-radius: 5px;
 
 }
@@ -108,19 +115,36 @@
     background-color: #d90429;
 }
 
-
 .info {
+    background-color: aliceblue;
+    width: 1100px;
+    max-width: 100%;
+    margin: 2px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 10px;
+
 }
 
-.box-1 {
+.info button {
+    padding: 10px 30px;
+    background-color: #d90429;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+
+}
+
+.info button:hover {
+    background-color: #0abaff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.icon p {
+    display: inline-block;
     padding: 20px;
-}
-
-.box-1 img {
-    width: 100%;
-
 }
