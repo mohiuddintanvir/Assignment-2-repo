@@ -1,21 +1,74 @@
 * {
     font-family: 'Archivo', sans-serif;
+    box-sizing: border-box;
 }
 
 .contain {
 
-    width: 70%;
+    width: 85%;
     height: 80vh;
-    justify-content: center;
-    background-image: url(images/Home\ background.jpg);
+    margin: 80px;
+    margin-left: 7%;
+    background-image: url(images/background-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 5%;
 }
 
 .main-item-1 {
-    padding-top: ;
+    padding-top: 20%;
+    padding-left: 5%;
     color: white;
+}
+
+.main-item-1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.main-item-1 p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.main-item-1 button {
+    padding: 20px 60px;
+    background-color: #d90429;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15%;
+
+}
+
+.main-item-1 button a {
+    text-decoration: none;
+    font-family: font-family: 'Anton', sans-serif;
+    ;
+    color: #fff;
+    font-size: 25px;
+    padding-right: 2px;
+
+}
+
+.main-item-1 button:hover {
+
+    background-color: #ffd60a;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.main-item-1 button a:hover {
+    color: #d90429;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 2px;
+
 }
